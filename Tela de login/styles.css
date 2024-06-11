@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url(./asset/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    mix-blend-mode: multiply;
+}
+
+.box-one h1 {
+    position: absolute;
+    top: 3px;
+    left: 200px;
+    color: black;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.box-one h1 span {
+    color: rgb(100, 5, 100);
+}
+
+.container {
+    width: 450px;
+    height: 600px;
+    background: transparent;
+    border: 4px solid #020202;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    padding: 30px 40px;
+    align-items: center;
+    margin-right: 45px;
+    text-align: center;
+}
+
+.container img {
+    position: absolute;
+    right: 60px;
+    margin-top: 13px;
+}
+
+h1 {
+    color: rgb(100, 5, 100);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 28px;
+    margin-top: 29px;
+}
+
+input {
+    border-radius: 22px;
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    border: 4px solid rgb(126, 7, 126);
+    padding-left: 20px;
+    outline: none;
+    background: #d3cfcf;
+    align-items: center;
+}
+
+.email {
+    margin-bottom: 35px;
+}
+
+.password {
+    margin-bottom: 45px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(126, 7, 126);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(160, 10, 160);
+}
+
+.recovery {
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+
+}
+
+.recovery a:hover {
+    text-decoration: underline;
+}
+
+.register {
+    margin-top: 20px;
+}
+
+.register :hover {
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a :hover {
+    text-decoration: underline;
+}
